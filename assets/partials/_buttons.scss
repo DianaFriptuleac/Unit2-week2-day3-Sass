@@ -1,0 +1,16 @@
+$buttons: (
+    btn1:$blu,
+    btn2:$orange,
+    btn3:$green
+);
+@each $name, $value in $buttons{
+    .#{$name}-color {
+        background-color: $value;
+        color: $light
+    }
+}
+@each $name in $buttons{
+    .#{$name}-color:hover{
+        background-color: red;
+    }
+}

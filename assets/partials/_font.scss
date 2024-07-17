@@ -1,0 +1,18 @@
+$fontfamily:'Times New Roman', Times, serif;
+$h1fontsize:50px;
+$pfontsize:16px;
+$sizes: (
+    xs: 10px,
+    sm: 12px,
+    md: 16px,
+    lg: 24px,
+    xl: 36px,
+  );
+  @mixin title-big {
+    color:$light ;
+    font-size:$h1fontsize;
+  }
+  h1 {
+    @include title-big;
+    padding: 10px;
+  }
