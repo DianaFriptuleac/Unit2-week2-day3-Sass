@@ -16,3 +16,7 @@ $sizes: (
     @include title-big;
     padding: 10px;
   }
+  p{
+    font-size: $pfontsize;
+  }
+  
