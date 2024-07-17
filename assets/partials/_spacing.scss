@@ -1,0 +1,21 @@
+$flex:flex;
+$paddingNav: 15px;
+$margin:4em;
+$radius:15px;
+
+nav{
+    display:$flex;
+    justify-content: space-between;
+    padding: $paddingNav;
+}
+header{
+    margin-bottom:$margin;
+}
+@mixin immagini{
+    border-radius: $radius;
+  }
+  img {
+    @include immagini;
+  }
+
+

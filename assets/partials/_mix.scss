@@ -1,0 +1,20 @@
+$widthlogo:100px;
+$widthmainimg:40%;
+
+.logo img{
+    width: $widthlogo;
+}
+@mixin float {
+    width:$widthmainimg ;
+  }
+  .headline img{
+    @include float;
+    padding: 10px;
+    position: relative;
+    bottom: -48px;
+  }
+  .img-header img,
+    header img    {
+    display:$flex;
+    justify-content: end;
+  }

@@ -9,7 +9,7 @@ $buttons: (
         color: $light
     }
 }
-@each $name in $buttons{
+@each $name, $value in $buttons{
     .#{$name}-color:hover{
         background-color: red;
     }
