@@ -1,6 +1,6 @@
 $fontfamily:'Times New Roman', Times, serif;
-$h1fontsize:50px;
-$pfontsize:16px;
+$h1fontsize:6em;
+$pfontsize:2em;
 $sizes: (
     xs: 10px,
     sm: 12px,
@@ -22,4 +22,7 @@ $sizes: (
   a {
     text-decoration: none;
     color:$light;
+  }
+  .all{
+    width: 45%;
   }
